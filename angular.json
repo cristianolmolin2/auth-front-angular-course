@@ -20,6 +20,7 @@
             "outputPath": "dist/auth-front-angular-course",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "baseHref": "/auth-front-angular-course/",
             "polyfills": [
               "zone.js"
             ],
@@ -100,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
